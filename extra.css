@@ -1,0 +1,49 @@
+/* Rodapé claro e compacto: uma linha só, com o tamanho da letra */
+:root,
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+  --md-footer-bg-color: transparent;
+  --md-footer-bg-color--dark: transparent;
+  --md-footer-fg-color: var(--md-default-fg-color);
+  --md-footer-fg-color--light: var(--md-default-fg-color--light);
+  --md-footer-fg-color--lighter: var(--md-default-fg-color--lighter);
+}
+
+.md-footer {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-footer__inner {
+  padding: 0 0.8rem;
+}
+
+.md-footer__link {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.md-footer__direction {
+  display: none;
+}
+
+.md-footer__title {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0.3rem 0;
+}
+
+.md-footer__button {
+  margin: 0;
+  padding: 0.3rem;
+}
+
+.md-footer__button svg {
+  height: 1rem;
+  width: 1rem;
+}
+
+.md-footer-meta {
+  display: none;
+}
